@@ -1,6 +1,4 @@
 # Local / env (do not push)
-.env
-.env.*
 !.env.example
 
 # Hardcoded coordinates / local scripts (do not push)
@@ -34,3 +32,5 @@ ss3.png
 
 # Logs
 *.log
+config.bat
+node_modules
