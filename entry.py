@@ -1,4 +1,6 @@
 """Single entry: start Flask (POST /predict, GET /health), optional file watcher that triggers prediction."""
+import utils.transport
+import utils.session
 import os
 import sys
 import time

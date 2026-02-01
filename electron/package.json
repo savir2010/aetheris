@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "author": "savirdillikar",
   "scripts": {
-    "start": "electron ."
+    "start": "node init && electron ."
   },
   "dependencies": {
     "express": "5.2.1",
