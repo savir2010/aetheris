@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "productName": "electron",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "savirdillikar",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "axios": "1.13.4",
+    "uiohook-napi": "1.5.4"
+  },
+  "devDependencies": {
+    "electron": "35.0.0"
+  }
+}

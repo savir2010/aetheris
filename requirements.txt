@@ -1,0 +1,10 @@
+# Core for rl.py (predictor) and entry.py
+Pillow>=10.0.0
+requests>=2.28.0
+flask>=2.0.0
+huggingface_hub>=0.20.0
+
+# Florence 2 for coordinate prediction (Qwen remains via HF InferenceClient)
+torch>=2.0.0
+transformers>=4.45.0
+accelerate>=0.25.0

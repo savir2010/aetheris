@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+#overlay {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 18px 20px;
+    color: #eaeaea;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    max-width: 520px;
+}
+
+#typing {
+    white-space: pre-line;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.link-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#link {
+    color: #7dd3fc;
+    font-size: 14px;
+}
+
+#copy-btn {
+    background: rgba(255,255,255,0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+#copy-btn:hover {
+    background: rgba(255,255,255,0.2);
+}

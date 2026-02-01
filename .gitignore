@@ -1,0 +1,36 @@
+# Local / env (do not push)
+.env
+.env.*
+!.env.example
+
+# Hardcoded coordinates / local scripts (do not push)
+run_qwen_florence_coords.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.Python
+
+# Local data and models
+*.db
+*.sqlite3
+*.pth
+click_feedback.db
+
+# Screenshots and overlays (local artifacts; optional)
+screenshare_latest.png
+ss1.png
+ss2.png
+ss3.png
+
+# IDE / OS
+.DS_Store
+.idea/
+.cursor/
+
+# Logs
+*.log
